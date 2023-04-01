@@ -4,10 +4,15 @@ body {
     height: 100vh;
 }
 
-#canvas1 {
+canvas {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
+}
+
+#collision-canvas {
+    opacity: 0;
+    background-color: red;
 }
